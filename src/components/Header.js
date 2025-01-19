@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegCalendarAlt, FaHome } from "react-icons/fa";
-
+import Hero from "./Hero";
 
 const Header = () => {
   return (
@@ -31,6 +31,7 @@ const Header = () => {
           <span className="unit">CAREERS AND COUNSELING CENTER</span>
         </div>
       </div>
+      <Hero />
 
     </div>
   );
