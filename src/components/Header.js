@@ -1,6 +1,7 @@
 import React from "react";
 import { FaRegCalendarAlt, FaHome } from "react-icons/fa";
 import Hero from "./Hero";
+import Services from "./Services";
 
 const Header = () => {
   return (
@@ -32,6 +33,7 @@ const Header = () => {
         </div>
       </div>
       <Hero />
+      <Services />
 
     </div>
   );

@@ -251,3 +251,214 @@ code {
   font-weight: 400;
   font-family: sans-serif;
 }
+
+/*---SERVIES-----*/
+/*WHAT WE DO*/
+.servics-section h2{
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Source Sans Pro;
+  margin-bottom: 15px;
+}
+
+.servics-section{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servics-section p{
+  font-family: Source Sans Pro;
+  font-size: 36px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 53px;
+  margin-top: 0;
+}
+
+/* .more-about-adotey{
+  background-color: rgb(65, 3, 65);
+  max-width: 453px;
+  display: grid;
+  width: 100%;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 27px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.more-about-adotey a{
+  color: white;
+  text-decoration: none;
+  font-size: 22.5px;
+  text-align: center;
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+} */
+
+/* NEW SERVICES-CONTAINER SECTION */
+.main{
+  max-width: 1440px; /* Maximum width for the content */
+  margin: 0 auto; /* Center the container horizontally */
+  width: 100%;
+}
+
+.services-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0;
+  margin-bottom: 50px;
+}
+
+.services-container h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 40px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.service-card {
+  flex: 1;
+  max-width: 350px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-card:nth-child(1) {
+  background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b');
+}
+
+.service-card:nth-child(2) {
+  background-image: url('https://images.stockcake.com/public/2/0/d/20d2e2c4-3885-4cda-8afe-073a9e7c9523_large/crowded-campus-walk-stockcake.jpg');
+}
+
+.service-card:nth-child(3) {
+  background-image: url('https://images.unsplash.com/photo-1528372444006-1bfc81acab02');
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-family: GT America Standard Regular;
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.book-button {
+  display: inline-block;
+  font-size: 12px;
+  padding: 7px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  right: 40px;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.counseling-area-section {
+  height: 400px;
+  padding: 30px 0;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.counseling-area {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.area-image-wrapper {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.area-image {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 40%;
+}
+
+.relationship-issues-image{
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 40%;
+}
+
+.area-info {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.area-title {
+  font-size: 48px;
+  margin: 0;
+  font-family: Canela Deck Web;
+  color: rgb(165, 28, 48);
+}
+
+.area-description {
+  font-size: 25px;
+  color: rgb(30, 30, 30);
+  font-family: GT America Standard Regular;
+  font-weight: 400;
+  line-height: 37px;
+}
