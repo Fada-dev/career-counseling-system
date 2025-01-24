@@ -34,7 +34,6 @@ const Header = () => {
       </div>
       <Hero />
       <Services />
-
     </div>
   );
 };

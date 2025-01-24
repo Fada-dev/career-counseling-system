@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-
+import Map from './components/Map' ;
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
     </div>
-
+      <Map />
     </div>
   );
 }
