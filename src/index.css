@@ -464,7 +464,7 @@ code {
 }
 
 /*-------MAP SECTON-------*/
-.map-section {
+/* .map-section {
   text-align: center;
   padding: 50px 20px;
   background-color: #f7f7f7;
@@ -489,4 +489,63 @@ code {
   border: 2px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
+} */
+
+/*-----FOOTER-------*/
+.app-footer {
+  background-color: rgb(21, 61, 108);
+  border-top: 10px solid #B99D64;
+  color: white;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-division {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 10px;
+}
+
+.footer-division h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #B99D64;
+}
+
+.footer-division p {
+  font-size: 16px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-division .footer-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.social-media {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #B99D64;
 }

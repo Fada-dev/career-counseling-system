@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import Map from './components/Map' ;
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
     <div className="App">
       <Header />
     </div>
-      <Map />
+      {/* <Map /> */}
+      <Footer />
     </div>
   );
 }
