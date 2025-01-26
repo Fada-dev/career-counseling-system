@@ -1,7 +1,5 @@
 import React from "react";
 import { FaRegCalendarAlt, FaHome } from "react-icons/fa";
-// import Hero from "./Hero";
-// import Services from "./Services";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -35,8 +33,6 @@ const Header = () => {
           <span className="unit">CAREERS AND COUNSELING CENTER</span>
         </div>
       </div>
-      {/* <Hero />
-      <Services /> */}
     </div>
   );
 };
