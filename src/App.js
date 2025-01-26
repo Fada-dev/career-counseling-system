@@ -1,18 +1,17 @@
-import './App.css';
-// import Map from './components/Map' ;
-import PhotoBook from './components/PhotoBook';
-import HomePage from './HomePage'; // Import HomePage component
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import BookingSession from './BookingSession';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./HomePage";
+import BookingSession from "./BookingSession";
+import BookingSummary from "./BookingSummary";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-        <Route path="/" element={<HomePage />} /> {/* Set HomePage as the index element */}
-          <Route path="/" element={<PhotoBook />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/BookingSession" element={<BookingSession />} />
+          <Route path="/BookingSummary" element={<BookingSummary />} />
         </Routes>
       </div>
     </Router>
