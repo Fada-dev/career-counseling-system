@@ -1,7 +1,11 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const BookingSession = () => {
   return (
+    <div>
+      <Header />
     <div className="booking-session">
       <h1 className="booking-title">Booking session</h1>
       <div className="form-container">
@@ -54,6 +58,8 @@ const BookingSession = () => {
         </div>
         <button className="confirm-button">Confirm</button>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };
