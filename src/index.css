@@ -684,3 +684,39 @@ button.confirm-button:hover {
     flex-direction: column;
   }
 }
+
+/*------BOOKING SUMMARY-----*/
+.booking-summary {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.summary-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.summary-item label {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.summary-input {
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(234, 233, 233, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
