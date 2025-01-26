@@ -1,19 +1,22 @@
 import React from "react";
 import { FaRegCalendarAlt, FaHome } from "react-icons/fa";
-import Hero from "./Hero";
-import Services from "./Services";
+// import Hero from "./Hero";
+// import Services from "./Services";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
       <div className="header">
         <div className="header-links-container">
-          <div className="schedule-session-button">
-            <FaRegCalendarAlt
-              style={{ marginRight: "5px", fontSize: "18px" }}
-            />
-            <span>Schedule Session</span>
-          </div>
+          <Link to="/BookingSession">
+            <div className="schedule-session-button">
+              <FaRegCalendarAlt
+                style={{ marginRight: "5px", fontSize: "18px" }}
+              />
+              <span>Schedule Session</span>
+            </div>
+          </Link>
           <FaHome style={{ color: "white", fontSize: "25px" }} />
         </div>
       </div>
@@ -32,8 +35,8 @@ const Header = () => {
           <span className="unit">CAREERS AND COUNSELING CENTER</span>
         </div>
       </div>
-      <Hero />
-      <Services />
+      {/* <Hero />
+      <Services /> */}
     </div>
   );
 };

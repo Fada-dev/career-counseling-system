@@ -1,19 +1,21 @@
 import './App.css';
-import Header from './components/Header';
-import Map from './components/Map' ;
-import Footer from './components/Footer';
+// import Map from './components/Map' ;
 import PhotoBook from './components/PhotoBook';
+import HomePage from './HomePage'; // Import HomePage component
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import BookingSession from './BookingSession';
 
 function App() {
   return (
-    <div>
-    <div className="App">
-      <Header />
-    </div>
-      {/* <Map /> */}
-      <PhotoBook />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+        <Route path="/" element={<HomePage />} /> {/* Set HomePage as the index element */}
+          <Route path="/" element={<PhotoBook />} />
+          <Route path="/BookingSession" element={<BookingSession />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
