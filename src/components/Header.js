@@ -15,7 +15,9 @@ const Header = () => {
               <span>Schedule Session</span>
             </div>
           </Link>
+          <Link to="/HomePage"> 
           <FaHome style={{ color: "white", fontSize: "25px" }} />
+          </Link>
         </div>
       </div>
       <div className="logo-section">
