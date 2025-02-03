@@ -1,10 +1,14 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const BookingSummary = () => {
   const { state: formData } = useLocation();
 
   return (
+    <div>
+    <Header />
     <div className="booking-summary">
       <h1 className="summary-title">Schedule summary</h1>
       <div className="summary-container">
@@ -33,6 +37,8 @@ const BookingSummary = () => {
           <div className="summary-input">{formData.specialRequests}</div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };
