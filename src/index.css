@@ -583,7 +583,6 @@ code {
   flex: 0 0 350px; /* Image width */
   margin: 0 10px; /* Spacing between images */
   height: 300px;
-  border: 1px solid red;
 }
 
 .photo img {
