@@ -1,0 +1,139 @@
+.counselors-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .add-counselor-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .add-button {
+    background-color: #1a1a7f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #141466;
+  }
+  
+  .counselors-grid-2cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .counselor-card {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .counselor-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .counselor-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+.form-container {
+    margin: 50px;
+}
+
+.form-title {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+  .input-field {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .image-upload {
+    width: 30%;
+    height: 227px;
+    border: 1px solid #ccc;
+    background-color:rgba(234, 233, 233, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .upload-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    align-self:last baseline;
+  }
+
+  .submit-button {
+    display: inline-block;
+    background-color: #1670f0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    bottom: 10px;  
+    padding: 6px 11px;
+    color: #fafafa;
+    text-transform:capitalize;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-size:16px;
+    margin: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+
+  .close-button {
+    display: inline-block;
+    background-color: #9b1f1f;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    bottom: 10px;  
+    padding: 6px 11px;
+    color: #fafafa;
+    text-transform:capitalize;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-size:16px;
+    margin: 10px;
+  }
+
+  .close-button:hover {
+    background-color: #6d0f0f;
+    color: white;
+  }
+

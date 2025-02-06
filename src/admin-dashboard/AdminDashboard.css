@@ -1,0 +1,10 @@
+.admin-container {
+    display: flex;
+  }
+  
+  .admin-main {
+    margin-left: 260px; /* Space equal to sidebar width */
+    padding: 20px;
+    width: calc(100% - 260px);
+  }
+  

@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import PhotoBook from './components/PhotoBook';
 import Footer from './components/Footer';
+// import Map from './components/Map';
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
             <Hero />
             <Services />
             <PhotoBook />
+            {/* <Map /> */}
             <Footer />
         </div>
     );

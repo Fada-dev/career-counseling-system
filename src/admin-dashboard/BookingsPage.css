@@ -1,0 +1,78 @@
+/* Container styles */
+.bookings-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Search bar styling */
+  .search-container {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 18px;
+  }
+  
+  /* Page title styling */
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  /* Table styling */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bookings-table th,
+  .bookings-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .bookings-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* Checkbox styling */
+  .bookings-table th input[type="checkbox"],
+  .bookings-table td input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  /* Star rating styling */
+  .star {
+    color: rgba(105, 38, 215, 1); /* Gold color for stars */
+    margin-right: 2px;
+    font-size: 16px;
+  }
+  

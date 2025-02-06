@@ -383,10 +383,10 @@ code {
 
 .book-button {
   display: inline-block;
-  font-size: 12px;
-  padding: 7px;
-  font-weight: bold;
-  color: black;
+  /* font-size: 12px; */
+  /* padding: 7px; */
+  /* font-weight: bold; */
+  /* color: black; */
   background-color: white;
   border: none;
   border-radius: 20px;
@@ -396,6 +396,14 @@ code {
   right: 0;
   bottom: 10px;
   right: 40px;
+
+  padding: 3px 10px;
+  color: #1670f0;
+  text-transform:capitalize;
+  text-decoration:none;
+  letter-spacing: 2px;
+  font-size:16px;
+  /* font-weight:600; */
 }
 
 .book-button:hover {
@@ -489,7 +497,7 @@ code {
   border: 2px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
-} */
+} 
 
 /*-----FOOTER-------*/
 .app-footer {
@@ -501,6 +509,7 @@ code {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-top: 70px;
 }
 
 .footer-division {
@@ -611,7 +620,7 @@ code {
 
 .form-container {
   border-top: 1px solid #ccc;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .form-row {
@@ -706,6 +715,8 @@ button.confirm-button:hover {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 100px;
 }
 
 .summary-item label {
@@ -724,4 +735,125 @@ button.confirm-button:hover {
   text-align: left;
   color: #615f5f;
   padding: 20px 20px;
+}
+
+
+
+.buttontry{
+  /* position:absolute;
+  top:50%;
+  left:50%; */
+  transform: translate(-50%,-50%);
+  padding: 5px 35px;
+  color: #1670f0;
+  text-transform:capitalize;
+  text-decoration:none;
+  letter-spacing: 2px;
+  font-size:20px;
+  font-weight:600;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  overflow:hidden;
+}
+
+.buttontry::before
+{
+  content:"";
+  position:absolute;
+  top:2px;
+  left:2px;
+  bottom:2px;
+  width:50%;
+  background:rgba(255,255,255,0.05);
+  
+}
+.buttontry span:nth-child(1)
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:2px;
+  background:linear-gradient(to right, #0c002b ,#1779ff);
+  animation: animate1 2s linear infinite;
+  animation-delay:1s;
+  
+}
+@keyframes animate1
+{
+  0%
+  {
+    transform:translateX(-100%);
+}
+  100%
+  {
+    transform:translateX(100%);
+  }
+}
+.buttontry span:nth-child(2)
+{
+  position:absolute;
+  top:0;
+  right:0;
+  width:2px;
+  height:100%;
+  background:linear-gradient(to bottom, #0c002b ,#1779ff);
+  animation: animate2 2s linear infinite;
+  animation-delay:2s;
+}
+@keyframes animate2
+{
+  0%
+  {
+    transform:translateY(-100%);
+}
+  100%
+  {
+    transform:translateY(100%);
+  }
+}
+.buttontry span:nth-child(3)
+{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:2px;
+  background:linear-gradient(to left, #0c002b ,#1779ff);
+   animation: animate3 2s linear infinite;
+  animation-delay:1s;
+  
+}
+@keyframes animate3
+{
+  0%
+  {
+    transform:translateX(100%);
+}
+  100%
+  {
+    transform:translateX(-100%);
+  }
+}
+.buttontry span:nth-child(4)
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:2px;
+  height:100%;
+  background:linear-gradient(to top, #0c002b ,#1779ff);
+   animation: animate4 2s linear infinite;
+  animation-delay:2s;
+  
+}
+@keyframes animate4
+{
+  0%
+  {
+    transform:translateY(100%);
+}
+  100%
+  {
+    transform:translateY(-100%);
+  }
 }

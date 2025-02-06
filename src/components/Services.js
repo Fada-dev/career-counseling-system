@@ -87,7 +87,13 @@ const Services = () => {
               Offering compassionate support to help you cope with anxiety, depression, and emotional distress. 
               We provide strategies and guidance to manage your mental health and restore balance in your life.
             </p>
-            <button className="book-btn">Book</button>
+            {/* <button className="book-btn">Book</button> */}
+            <a href ="#" className = "buttontry">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            Book</a>
           </div>
         </div>
       </section>
@@ -102,7 +108,13 @@ const Services = () => {
             space to address communication breakdowns, conflicts, and emotional struggles. 
             Let us help you build stronger, healthier connections and foster mutual understanding.
             </p>
-            <button className="book-btn">Book</button>
+            {/* <button className="book-btn">Book</button> */}
+            <a href ="#" className = "buttontry">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            Book</a>
           </div>
           <div className="area-image-wrapper">
             <img
@@ -131,7 +143,13 @@ const Services = () => {
             Together, we’ll work on strategies to enhance your mental clarity, resilience, and overall 
             quality of life.
             </p>
-            <button className="book-btn">Book</button>
+            {/* <button className="book-btn">Book</button> */}
+            <a href ="#" className = "buttontry">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            Book</a>
           </div>
         </div>
       </section>
@@ -147,7 +165,13 @@ const Services = () => {
             and achievements effectively. Let us assist you in creating a document that opens doors 
             to new opportunities.
             </p>
-            <button className="book-btn">Book</button>
+            {/* <button className="book-btn">Book</button> */}
+            <a href ="#" className = "buttontry">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            Book</a>
           </div>
           <div className="area-image-wrapper">
             <img
